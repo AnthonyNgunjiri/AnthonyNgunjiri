@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @AnthonyNgunjiri,pursuing a bachelors degree in Information and Communication Technology at Murang'a university of Technology.
+- 👋 Hi, I’m AnthonyNgunjiri,pursuing a bachelors degree in Information and Communication Technology at Murang'a university of Technology.
 - 👀 I’ve an interest in programming ,and have done several PLs from C,C++,VB, to HTML and still learning some more.
 - 🌱 I’m currently learning JAVASCRIPT but have an interest in python,where i intend to build my PL skills in
 - 💞️ I’m looking to collaborate on my area of interest stated above,i can give a hand  on Hypertext markup language ie html to anyone wishing to create a website .
