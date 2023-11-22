@@ -1,0 +1,300 @@
+body {
+
+    background: #fff !important;
+    font-family: 'Poppins', sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: #1a1e21;
+  }
+  
+  .section-title h2 {
+    text-shadow: 1px 1px 2px #4444;
+  }
+  /*****************************
+      NavBar
+  ******************************/
+  header nav {
+    background: #fff;
+    box-shadow: 0px 0px 5px #4444;
+  }
+  header nav a.navbar-brand h2 {
+  
+    color: var(--bs-orange);
+  }
+  header nav ul.action-menu .nav-item .nav-link {
+    margin: 0px 20px;
+    font-size: 18px;
+  }
+  .navbar-toggler {
+    outline: none!important;
+    outline-color: transparent!important;
+    padding: none!important;
+    border: none!important;
+    border-radius: none!important;
+    
+  }
+  
+  @media(max-width: 567px){
+    
+  }
+  /*****************************
+      Login Form
+  ******************************/
+  .form-login{
+      bottom: 45%!important;
+  }
+  
+  
+  .carousel-item {
+    width: 100%;
+    height: 100vh!important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .carousel-item::before {
+    content: '';
+    background-color: rgba(12, 11, 10, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .carousel-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 40%;
+    left: 0;
+    right: 0;
+  }
+  
+  
+  
+  .carousel-caption h5 {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 42px;
+    font-weight: 700;
+    width: 80%;
+    margin: 0px auto 30px auto;
+  }
+  
+  .carousel-caption p {
+    
+    font-size: 20px;
+    width: 80%;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
+    margin: 0px auto 30px auto;
+  }
+  
+  
+  @media(max-width:768px){
+    .carousel-caption h5 {
+      font-size: 38px;
+    }
+  }
+  @media(max-width:577px){
+    .carousel-caption h5 {
+      font-size: 25px;
+      
+    }
+    .carousel-caption p {
+      font-size: 13px;
+    }
+    
+  }
+  /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+  
+  
+  .about .content {
+    padding: 0 80px;
+  }
+  
+  .about .content h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #5f5950;
+  }
+  
+  .about .content h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+  }
+  
+  .about .content p {
+    font-size: 15px;
+    color: #848484;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li + li {
+    margin-top: 15px;
+  }
+  
+  .about .content ul li {
+    position: relative;
+    padding-left: 26px;
+  }
+  
+  .about .content ul i {
+    font-size: 20px;
+    color: #ffb03b;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about .video-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+  }
+  
+  .about .play-btn {
+    width: 94px;
+    height: 94px;
+    background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 47px);
+    top: calc(50% - 47px);
+    overflow: hidden;
+  }
+  
+  .about .play-btn::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .about .play-btn::before {
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+    -webkit-animation: pulsate-btn 2s;
+    animation: pulsate-btn 2s;
+    -webkit-animation-direction: forwards;
+    animation-direction: forwards;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-timing-function: steps;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 176, 59, 0.7);
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+  }
+  
+  .about .play-btn:hover::after {
+    border-left: 15px solid #ffb03b;
+    transform: scale(20);
+  }
+  
+  .about .play-btn:hover::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    -webkit-animation: none;
+    animation: none;
+    border-radius: 0;
+  }
+  
+  @media (max-width: 1024px) {
+    .about .content, .about .accordion-list {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .about .content {
+      padding-top: 30px;
+    }
+    .about .accordion-list {
+      padding-bottom: 30px;
+    }
+  }
+  
+  @-webkit-keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+  
+  
+  
+  .course .box {
+    padding: 10px 10px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+  }
+  .course .box img{
+    border-radius: 5px;
+  }
+  .course .box span {
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffcf88;
+  }
+  
