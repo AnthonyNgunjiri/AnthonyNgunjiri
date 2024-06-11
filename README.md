@@ -4,7 +4,7 @@
  - 👋 Hi, I’m AnthonyNgunjiri,pursuing a bachelors degree in Information 
      and Communication Technology at Murang'a university of Technology.
  - 👀 I’ve an interest in programming ,and have done several PLs from 
-    C,C++,VB, to HTML,javascript, React and still learning some more.
+    C,C++,VB, to HTML,javascript, React, nodejs and still learning some more.
 - 🌱 I’m currently learning data science using python,where 
     i intend to build my PL skills
  
